@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    background: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: white;
+}
+
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+#search {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+}
+
+.blog {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+.blog h3 {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.blog small {
+    color: #777;
+}
+
+.blog p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+button {
+    background: #222;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #555;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.delete-btn {
+    background: #d9534f;
+}
+
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
